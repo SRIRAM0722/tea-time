@@ -1,0 +1,36 @@
+*{
+    font-size:small;
+    margin: 0;
+    padding: 0;
+}
+    
+body{
+    background-color:white;
+    padding: 0;
+    margin: 0;
+}
+.card{
+    background-color: rgb(201, 225, 225);
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(66, 43, 43);
+    box-shadow: 10px 10px  10px rgb(80, 66, 66);
+    padding: 10px;
+    width: 400px;
+    margin: 120px;
+    row-gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and  (min-width:300px) and (max-width:700px){
+
+
+  body{
+    background-color: blueviolet;
+  }
+}
+img{
+  width: 400px; 
+  height: 200px;
+}
